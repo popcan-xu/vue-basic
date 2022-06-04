@@ -8,7 +8,8 @@
 	</head>
 	<body>
         <div id="root">
-			<h2 @click="changeMessage">{{ message }}</h2>
+			<h2>{{ message }}</h2>
+			<input type="button" value="点击增加message" @click="changeMessage">
 			<h2>
 				{{ broker.name }}
 				{{ broker.type }}
