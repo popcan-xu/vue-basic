@@ -1,2 +1,4 @@
 测试github与vscode的集成功能
 测试从github克隆项目到本机
+添加了.gitignore文件
+
